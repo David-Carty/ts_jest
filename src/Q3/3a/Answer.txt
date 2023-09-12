@@ -1,0 +1,4 @@
+1. 'getMockReadings' is an asynchronous function that takes half a second to resolve.
+2. The code does not wait for the promise to resolve before moving to the for-loop.
+3. This means that 'allSensorReadings' is never assigned to and will be 'undefined'.
+4. This will cause an error as 'undefined' does not have a length property.

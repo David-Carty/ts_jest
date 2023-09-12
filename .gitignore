@@ -1,0 +1,18 @@
+# Node.js related
+node_modules/
+dist/
+
+# TypeScript related
+*.tsbuildinfo
+
+# Operating system related
+.DS_Store  # macOS
+Thumbs.db  # Windows
+*.log
+
+# Editor related
+.vscode/
+*.swp  # Vim swap files
+*.swo  # Vim swap files
+*.idea/  # JetBrains editors (e.g., WebStorm)
+
